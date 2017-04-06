@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{b9b20102-9b88-430c-aab1-ee6eaee265fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net_server">
+      <UniqueIdentifier>{dd085b84-9a3d-48ad-81e2-3e3432a635e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net_protocol">
+      <UniqueIdentifier>{11e7273f-f025-4c14-8e4f-a103201247dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mysql_opt">
+      <UniqueIdentifier>{7099418d-4e00-474d-a0e6-71f73dc1ceab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="CFmMainThreadMgr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\net_protocol\CNetProtocolBasic.hpp">
+      <Filter>net_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\net_protocol\CNetProtocolGeneral.hpp">
+      <Filter>net_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\net_protocol\CNetProtocolMgr.hpp">
+      <Filter>net_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\net_protocol\CNetProtocolUser.hpp">
+      <Filter>net_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="CFmNetServerImpl.h">
+      <Filter>net_server</Filter>
+    </ClInclude>
+    <ClInclude Include="CFmNetServerMgr.h">
+      <Filter>net_server</Filter>
+    </ClInclude>
+    <ClInclude Include="CMysqlOperation.h">
+      <Filter>mysql_opt</Filter>
+    </ClInclude>
+    <ClInclude Include="CMysqlCheckInitial.h">
+      <Filter>mysql_opt</Filter>
+    </ClInclude>
+    <ClInclude Include="CFmResourceMgr.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerLogicProcess.h">
+      <Filter>net_server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CFmMainThreadMgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CFmNetServerImpl.cpp">
+      <Filter>net_server</Filter>
+    </ClCompile>
+    <ClCompile Include="CFmNetServerMgr.cpp">
+      <Filter>net_server</Filter>
+    </ClCompile>
+    <ClCompile Include="CMysqlOperation.cpp">
+      <Filter>mysql_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="CMysqlCheckInitial.cpp">
+      <Filter>mysql_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerLogicProcess.cpp">
+      <Filter>net_server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\fm_resource.json">
+      <Filter>mysql_opt</Filter>
+    </None>
+  </ItemGroup>
+</Project>
